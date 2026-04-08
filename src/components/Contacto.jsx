@@ -59,6 +59,7 @@ const Contacto = () => {
         </header>
 
         <div className="row g-5">
+          {/* Formulario de contacto */}
           <div className="col-lg-7">
             <form onSubmit={handleSubmit} className="row g-4 p-4 rounded-4" style={{ background: 'rgba(0,245,160,0.05)', border: '1px solid rgba(0,245,160,0.2)' }}>
               <div className="col-md-6">
@@ -70,6 +71,7 @@ const Contacto = () => {
                   placeholder="Tu nombre"
                   value={formData.nombre}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="col-md-6">
@@ -81,6 +83,7 @@ const Contacto = () => {
                   placeholder="tu@email.com"
                   value={formData.email}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="col-12">
@@ -103,6 +106,7 @@ const Contacto = () => {
                   placeholder="¿En qué puedo ayudarte?"
                   value={formData.mensaje}
                   onChange={handleChange}
+                  required
                 ></textarea>
               </div>
               <div className="col-12 text-center">
@@ -113,6 +117,7 @@ const Contacto = () => {
             </form>
           </div>
 
+          {/* Información de contacto directo */}
           <div className="col-lg-5">
             <div className="p-4 rounded-4 h-100" style={{ background: 'rgba(0,245,160,0.05)', border: '1px solid rgba(0,245,160,0.2)' }}>
               <h3 className="h2 text-info mb-4">Contacto Directo</h3>
@@ -121,21 +126,27 @@ const Contacto = () => {
                   <i className="bi bi-whatsapp text-info fs-3 me-3"></i>
                   <div className="d-inline-block">
                     <strong className="text-white d-block">WhatsApp</strong>
-                    <a href="https://wa.me/573143294343" className="text-info" target="_blank" rel="noopener noreferrer">+57 314 329 4343</a>
+                    <a href="https://wa.me/573143294343" className="text-info" target="_blank" rel="noopener noreferrer">
+                      +57 314 329 4343
+                    </a>
                   </div>
                 </li>
                 <li className="mb-4">
                   <i className="bi bi-envelope text-info fs-3 me-3"></i>
                   <div className="d-inline-block">
                     <strong className="text-white d-block">Email</strong>
-                    <a href="mailto:Aayarojas.123@gmail.com" className="text-info">Aayarojas.123@gmail.com</a>
+                    <a href="mailto:Aayarojas.123@gmail.com" className="text-info">
+                      Aayarojas.123@gmail.com
+                    </a>
                   </div>
                 </li>
                 <li className="mb-4">
                   <i className="bi bi-github text-info fs-3 me-3"></i>
                   <div className="d-inline-block">
                     <strong className="text-white d-block">GitHub</strong>
-                    <a href="https://github.com/klzombra" className="text-info" target="_blank" rel="noopener noreferrer">github.com/klzombra</a>
+                    <a href="https://github.com/klzombra" className="text-info" target="_blank" rel="noopener noreferrer">
+                      github.com/klzombra
+                    </a>
                   </div>
                 </li>
                 <li className="mb-4">
@@ -149,7 +160,7 @@ const Contacto = () => {
               <hr className="border-info opacity-25 my-4" />
               <div className="text-center">
                 <p className="text-white-50 mb-0">
-                  <i className="bi bi-clock me-1"></i> Respuesta en < 24h
+                  <i className="bi bi-clock me-1"></i> Respuesta en menos de 24 horas
                 </p>
               </div>
             </div>
