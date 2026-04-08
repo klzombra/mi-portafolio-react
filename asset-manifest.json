@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mi-portafolio-react/static/css/main.cfcc7609.css",
+    "main.js": "/mi-portafolio-react/static/js/main.2056e11c.js",
+    "static/media/bootstrap-icons.woff?": "/mi-portafolio-react/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/mi-portafolio-react/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/mi-portafolio-react/index.html",
+    "main.cfcc7609.css.map": "/mi-portafolio-react/static/css/main.cfcc7609.css.map",
+    "main.2056e11c.js.map": "/mi-portafolio-react/static/js/main.2056e11c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfcc7609.css",
+    "static/js/main.2056e11c.js"
+  ]
+}
